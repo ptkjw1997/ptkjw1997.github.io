@@ -2,45 +2,43 @@
 layout: about
 title: About
 permalink: /
-subtitle: Ph.D. candidate in <a href='https://gsds.kaist.ac.kr'>Graduate School of Data Science</a> at <a href='https://kaist.ac.kr'>KAIST</a>.
+subtitle: Ph.D. student in <a href='https://ise.kaist.ac.kr'>Industrial & Systems Engineering</a> at <a href='https://kaist.ac.kr'>KAIST</a>.
 
 profile:
   align: right
-  image: profile26.jpeg
+  image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   address: >
 
 news: true  # includes a list of news items
 latest_posts: false  # includes a list of the newest posts
-selected_papers: false # includes a list of papers marked as "selected={true}"
+selected_papers: true # includes a list of papers marked as "selected={true}"
 educations: false
 social: false  # includes social icons at the bottom of the page
 work : false
 teaching : false
 ---
 
-I am Sungwon Kim (pronounced *"Sung-won"*), a Ph.D. candidate in the <a href='https://gsds.kaist.ac.kr'>Graduate School of Data Science (GSDS)</a> at <a href='https://kaist.ac.kr'>KAIST</a>, where I am advised by <a href='http://dsail.kaist.ac.kr/professor/'>Prof. Chanyoung Park</a>. I hold a B.S. degree in <a href='https://ace.korea.ac.kr/eng/index.php'>Civil, Environmental and Architectural Engineering</a> from <a href='https://www.korea.ac.kr/sites/en/index.do'>Korea University</a>.
-
-I am actively engaged in research with my colleagues at the <a href='http://dsail.kaist.ac.kr'>Data Science and Artificial Intelligence Lab</a>.
+I am Jiwan Kim, a Ph.D. student in the Department of <a href='https://ise.kaist.ac.kr'>Industrial & Systems Engineering</a> at <a href='https://kaist.ac.kr'>KAIST</a>, where I am advised by <a href='http://dsail.kaist.ac.kr/professor/'>Prof. Chanyoung Park</a> at the <a href='http://dsail.kaist.ac.kr'>Data Science and Artificial Intelligence Lab (DSAIL)</a>. I received my M.S. degree from KAIST under the same advisor, and my B.S. degree in Statistics (major) and Computer Science (double major) from <a href='https://en.snu.ac.kr'>Seoul National University</a>.
 
 ---
 
 🔬 Core Research Focus
 
-**AI Surrogate Modeling for CAE and PDE solvers (Neural Operators)**  
+**Efficient Multimodal Large Language Models (MLLMs)**
 
-My primary research focuses on developing **high-fidelity AI surrogate models** that work *in synergy with* computationally intensive 3D CAE simulations (e.g., structural mechanics, fluid dynamics, injection molding analysis) and PDE solvers (i.e., neural operators). Rather than replacing these established tools, my models augment them to accelerate engineering design cycles and lower computational costs.  
+My primary research focuses on building **high-performance yet efficient multimodal LLMs** (image and video) at both training and inference time, and leveraging them to solve real-world deployment challenges.
 
-  `Keywords: Physics AI (Engineering), 3D Simulation, Physics-Informed Neural Networks (PINNs), Neural Operators`  
+  `Keywords: Multimodal LLM, Knowledge Distillation, Visual Token Pruning, On-Device AI`
 
 **Key Focus:**
-  - **Scalability**: Building surrogate models that scale to industrial-level 3D problems with high resolution and geometric complexity.
-  - **Usability**: Streamlining surrogate models into practical engineering workflows for real-world adoption.
-  - **Geometry-Generalizability**: Developing models that generalize robustly across diverse and unseen 3D geometries.
+  - **On-Device MLLM**: efficiency for both training and inference
+    - *Knowledge Distillation*: effective training to strengthen small MLLMs
+    - *Visual Token Pruning & Compression*: taming large visual-token cost at inference
+  - **MLLM Applications**
+    - *Agentic & Tool-Integrated MLLM*: agent / tool-use ability for small MLLMs
+    - *Autonomous Driving, Vision-Language-Action (VLA)*
 
-**Projects**
+**Previous Research: Recommendation Systems**
 
-- **Physics-AI, Learning-based 3D Simulation** *(Collaboration with LG Electronics)*
-  - How can we develop a transformer-based model that operates at high scalability (industrial level)?
-  - How can we create a learning-based alternative to the FEM for 3D inputs with highly complex geometries, given the initial and boundary conditions? (Point-cloud based)
-  - How can we efficiently interact with opposing surfaces while maintaining computational efficiency? (Mesh based)
+Multimodal and LLM-based recommender systems — generating missing modalities, building token-efficient item representations, and understanding user behavior with LLMs.

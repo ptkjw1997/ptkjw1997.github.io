@@ -13,20 +13,15 @@ nav_order: 1
 
 <div class="pub-nav">
   <a href="#conference">Conference</a>
-  <a href="#journal">Journal</a>
-  <a href="#workshop">Workshop</a>
+  <a href="#preprint">Under Review</a>
 </div>
 
 <h2 class="category-header" id="conference">Conference</h2>
 
 {% bibliography -f papers -q @*[category=Conference]* %}
 
-<h2 class="category-header" id="journal">Journal</h2>
+<h2 class="category-header" id="preprint">Under Review</h2>
 
-{% bibliography -f papers -q @*[category=Journal]* %}
-
-<h2 class="category-header" id="workshop">Workshop</h2>
-
-{% bibliography -f papers -q @*[category=Workshop]* %}
+{% bibliography -f papers -q @*[category=Preprint]* %}
 
 </div>

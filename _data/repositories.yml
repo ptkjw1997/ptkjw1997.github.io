@@ -1,12 +1,6 @@
 # github_users:
-  # - sung-won-kim
-  # - alshedivat
+  # - ptkjw1997
 
 github_repos:
-  - sung-won-kim/G-Meta-pyg
-  # - twbs/bootstrap
-  # - jekyll/jekyll
-  # - jquery/jquery
-  # - FortAwesome/Font-Awesome
-  # - jpswalsh/academicons
-  # - mathjax/MathJax
+  - ptkjw1997/CompoDistill
+  - ptkjw1997/DGMRec
