@@ -250,7 +250,7 @@ blockquote {
 
 @media (min-width: 576px) {
   .profile {
-    width: 40%;
+    width: 28%;
     box-shadow: none !important;
   }
   .profile .address p {
