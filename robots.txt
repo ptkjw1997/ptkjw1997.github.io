@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://ptkjw1997.github.io/sitemap.xml
